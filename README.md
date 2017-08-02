@@ -2,13 +2,17 @@
 Android Projects
 
 Android Service that run in background and receive location updates on broadcast receiver.
+
  Get current location every few minute interval 
+ 
     private static final int LOCATION_INTERVAL = 1000;  // Set location interval 1000*1 = 1 Sec
+    
     public static final float mGPSAccuracyLevel = 10f;  // Accuracy level set <10> meters
     
 Using GoogleApiClient and LocationListener
 
 *Google Play provides the fused location provider to retrieve the device’s last known location
+
 *LocationListener Used for receiving notifications from the LocationManager when the location has changed. These methods are called if the LocationListener has been registered with the location manager service using the requestLocationUpdates(String, long, float, LocationListener) method. 
 
 To use the location manager make the Google play service available via your app build.gradle file.
