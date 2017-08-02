@@ -1,5 +1,4 @@
-# androidprojects
-Android Projects
+#GPS location via a service in Android 
 
 Android Service that run in background and receive location updates on broadcast receiver.
 
